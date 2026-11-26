@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+float weight,height,bim;
+printf("enter the height:");
+scanf("%f",&height);
+printf("enter the weight:");
+scanf("%f",&weight);
+bim=weight/(height*height);
+printf("bim=%f",bim);
+}
