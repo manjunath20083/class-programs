@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int j1,j2,j3,longest;
+printf("enter the three jumps jumped by manju:");
+scanf("%d%d%d",&j1,&j2,&j3);
+longest=j1;
+if(j2>longest)
+longest=j2;
+if(j3>longest)
+longest=j3;
+printf("the longest distnace is=%d\n",longest);
+}
